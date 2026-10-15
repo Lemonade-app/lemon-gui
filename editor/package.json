@@ -1,0 +1,22 @@
+{
+  "name": "@lemonade/editor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lemonade/paint": "github:Lemonade-app/lemon-paint#v1.0.0",
+    "@lemonade/blocks": "github:Lemonade-app/lemon-blocks#v1.0.0",
+    "@lemonade/i18n": "github:Lemonade-app/lemon-i18n#v1.0.0",
+    "@lemonade/api": "github:Lemonade-app/lemon-api#v1.0.0",
+    "@lemonade/ux": "github:Lemonade-app/UX-Designs#v1.0.0",
+    "@lemonade/assistant": "github:Lemonade-app/lemonade-ai#v1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  }
+}
