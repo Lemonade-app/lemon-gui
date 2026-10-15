@@ -1,0 +1,12 @@
+{
+  "name": "lemon-gui",
+  "version": "1.0.0",
+  "dependencies": {
+    "paint": "github:Lemonade-app/lemon-paint",
+    "blocks":  "github:Lemonade-app/lemon-blocks",
+    "i18n":   "github:Lemonade-app/lemon-i18n",
+    "secure-api-https":   "github:Lemonade-app/lemon-api",
+    "ux-setup":     "github:Lemonade-app/UX-Designs",
+    "assistant":   "github:Lemonade-app/lemonade-ai"
+  }
+}
