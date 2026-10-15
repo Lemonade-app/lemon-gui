@@ -1,0 +1,13 @@
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  appType: "spa",
+  server: {
+    open: true
+  },
+  build: {
+    rollupOptions: {
+      input: "Main.js"
+    }
+  }
+});
